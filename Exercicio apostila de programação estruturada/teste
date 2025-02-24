@@ -1,0 +1,7 @@
+salario_base=float(input('Me informe o seu salario atual:'))
+
+salario_aumento=float(salario_base)*float(1.15) #aumento de 15%
+desconto=float(salario_aumento)*float(0.92) #desconto de 8%
+
+print('Irei lhe informar o salario com aumento:', salario_aumento)
+print('Irei lhe informar o salario com desconto:', desconto)
